@@ -1,0 +1,58 @@
+import type { Movie } from '../types/movie'
+
+export const initialMovies: Movie[] = [
+  {
+    id: 1,
+    title: 'Inception',
+    genre: 'Sci-Fi',
+    year: 2010,
+    rating: 8.8,
+    watched: true,
+    inWatchlist: true,
+  },
+  {
+    id: 2,
+    title: 'The Grand Budapest Hotel',
+    genre: 'Comedy',
+    year: 2014,
+    rating: 8.1,
+    watched: false,
+    inWatchlist: true,
+  },
+  {
+    id: 3,
+    title: 'Parasite',
+    genre: 'Thriller',
+    year: 2019,
+    rating: 8.5,
+    watched: true,
+    inWatchlist: false,
+  },
+  {
+    id: 4,
+    title: 'Spirited Away',
+    genre: 'Animation',
+    year: 2001,
+    rating: 8.6,
+    watched: false,
+    inWatchlist: true,
+  },
+  {
+    id: 5,
+    title: 'Mad Max: Fury Road',
+    genre: 'Action',
+    year: 2015,
+    rating: 8.1,
+    watched: false,
+    inWatchlist: false,
+  },
+  {
+    id: 6,
+    title: 'Arrival',
+    genre: 'Sci-Fi',
+    year: 2016,
+    rating: 7.9,
+    watched: true,
+    inWatchlist: false,
+  },
+]
